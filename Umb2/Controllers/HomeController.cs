@@ -9,6 +9,12 @@ namespace Umb2.Controllers
 {
     public class HomeController : SurfaceController
     {
+
+        public ActionResult RenderIntro()
+        {
+            return PartialView("~/Views/Partials/SiteLayout/_Intro.cshtml");
+        }
+
         public ActionResult RenderFeatured()
         {
             return PartialView("~/Views/Partials/Home/_Featured.cshtml");

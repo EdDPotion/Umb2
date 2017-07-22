@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
     </Reference>
@@ -200,6 +204,9 @@
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
@@ -249,6 +256,9 @@
     <Reference Include="UmbracoExamine, Version=0.7.0.36626, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.6.4\lib\net45\UmbracoExamine.dll</HintPath>
     </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -265,6 +275,51 @@
     <Content Include="fonts\icomoon\icomoon.svg" />
     <Content Include="fonts\icomoon\index.html" />
     <Content Include="fonts\simple-line-icons\Simple-Line-Icons.svg" />
+    <Content Include="htmlUi\about.html" />
+    <Content Include="htmlUi\blog.html" />
+    <Content Include="htmlUi\contact.html" />
+    <Content Include="htmlUi\css\animate.css" />
+    <Content Include="htmlUi\css\bootstrap.css" />
+    <Content Include="htmlUi\css\icomoon.css" />
+    <Content Include="htmlUi\css\index.html" />
+    <Content Include="htmlUi\css\simple-line-icons.css" />
+    <Content Include="htmlUi\css\style.css" />
+    <Content Include="htmlUi\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="htmlUi\fonts\bootstrap\index.html" />
+    <Content Include="htmlUi\fonts\icomoon\icomoon.svg" />
+    <Content Include="htmlUi\fonts\icomoon\index.html" />
+    <Content Include="htmlUi\fonts\index.html" />
+    <Content Include="htmlUi\fonts\simple-line-icons\Simple-Line-Icons.svg" />
+    <Content Include="htmlUi\images\image_1.jpg" />
+    <Content Include="htmlUi\images\image_10.jpg" />
+    <Content Include="htmlUi\images\image_2.jpg" />
+    <Content Include="htmlUi\images\image_3.jpg" />
+    <Content Include="htmlUi\images\image_4.jpg" />
+    <Content Include="htmlUi\images\image_5.jpg" />
+    <Content Include="htmlUi\images\image_6.jpg" />
+    <Content Include="htmlUi\images\image_7.jpg" />
+    <Content Include="htmlUi\images\image_8.jpg" />
+    <Content Include="htmlUi\images\image_9.jpg" />
+    <Content Include="htmlUi\images\image_about.jpg" />
+    <Content Include="htmlUi\images\index.html" />
+    <Content Include="htmlUi\images\loader.gif" />
+    <Content Include="htmlUi\images\loc.png" />
+    <Content Include="htmlUi\index.html" />
+    <Content Include="htmlUi\js\bootstrap.min.js" />
+    <Content Include="htmlUi\js\google_map.js" />
+    <Content Include="htmlUi\js\index.html" />
+    <Content Include="htmlUi\js\jquery.easing.1.3.js" />
+    <Content Include="htmlUi\js\jquery.min.js" />
+    <Content Include="htmlUi\js\jquery.waypoints.min.js" />
+    <Content Include="htmlUi\js\main.js" />
+    <Content Include="htmlUi\js\modernizr-2.6.2.min.js" />
+    <Content Include="htmlUi\js\respond.min.js" />
+    <Content Include="htmlUi\portfolio.html" />
+    <Content Include="htmlUi\README.txt" />
+    <Content Include="htmlUi\sass\bootstrap\index.html" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\index.html" />
+    <Content Include="htmlUi\sass\index.html" />
+    <Content Include="htmlUi\services.html" />
     <Content Include="images\image_1.jpg" />
     <Content Include="images\image_10.jpg" />
     <Content Include="images\image_2.jpg" />
@@ -296,6 +351,101 @@
     <Content Include="sass\index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="htmlUi\css\.DS_Store" />
+    <Content Include="htmlUi\css\bootstrap.css.map" />
+    <Content Include="htmlUi\css\style.css.map" />
+    <Content Include="htmlUi\fonts\.DS_Store" />
+    <Content Include="htmlUi\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="htmlUi\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="htmlUi\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="htmlUi\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="htmlUi\fonts\icomoon\.DS_Store" />
+    <Content Include="htmlUi\fonts\icomoon\icomoon.eot" />
+    <Content Include="htmlUi\fonts\icomoon\icomoon.ttf" />
+    <Content Include="htmlUi\fonts\icomoon\icomoon.woff" />
+    <Content Include="htmlUi\fonts\simple-line-icons\.DS_Store" />
+    <Content Include="htmlUi\fonts\simple-line-icons\Simple-Line-Icons.eot" />
+    <Content Include="htmlUi\fonts\simple-line-icons\Simple-Line-Icons.ttf" />
+    <Content Include="htmlUi\fonts\simple-line-icons\Simple-Line-Icons.woff" />
+    <Content Include="htmlUi\fonts\simple-line-icons\Simple-Line-Icons.woff2" />
+    <Content Include="htmlUi\images\.DS_Store" />
+    <Content Include="htmlUi\js\.DS_Store" />
+    <Content Include="htmlUi\sass\.DS_Store" />
+    <Content Include="htmlUi\sass\bootstrap.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_alerts.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_buttons.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_center-block.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_forms.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_gradients.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_grid.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_hide-text.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_image.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_labels.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_list-group.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_opacity.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_pagination.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_panels.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_resize.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_size.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_table-row.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="htmlUi\sass\bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_alerts.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_badges.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_breadcrumbs.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_button-groups.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_buttons.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_carousel.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_close.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_code.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_component-animations.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_dropdowns.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_forms.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_glyphicons.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_grid.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_input-groups.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_jumbotron.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_labels.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_list-group.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_media.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_mixins.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_modals.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_navbar.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_navs.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_normalize.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_pager.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_pagination.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_panels.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_popovers.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_print.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_progress-bars.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_responsive-embed.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_responsive-utilities.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_scaffolding.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_tables.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_theme.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_thumbnails.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_tooltip.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_type.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_utilities.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_variables.scss" />
+    <Content Include="htmlUi\sass\bootstrap\_wells.scss" />
+    <Content Include="htmlUi\sass\style.scss" />
+    <Content Include="htmlUi\sass\_bootstrap-compass.scss" />
+    <Content Include="htmlUi\sass\_bootstrap-mincer.scss" />
+    <Content Include="htmlUi\sass\_bootstrap-sprockets.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -439,6 +589,7 @@
     <Content Include="Views\Partials\Home\_BigList.cshtml" />
     <Content Include="Views\Partials\Home\_PostList.cshtml" />
     <Content Include="Views\Partials\Home\_TestimonialList.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -476,6 +627,8 @@
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SiteLayoutController.cs" />
+    <Compile Include="Models\NavigationLink.cs" />
+    <Compile Include="Models\NavigationListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

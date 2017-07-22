@@ -3,6 +3,10 @@
 	Layout = "SiteBase.cshtml";
 }
 
+ <!-- intro -->
+@{ Html.RenderAction("RenderIntro", "Home");}
+
+
 <!-- featured -->
 @{ Html.RenderAction("RenderFeatured", "Home");}
 
