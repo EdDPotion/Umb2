@@ -3145,3 +3145,1377 @@ System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents
  2017-07-22 15:58:41,185 [P6228/D3/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
  2017-07-22 15:58:41,228 [P6228/D3/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1594ms)
  2017-07-22 15:58:41,691 [P6228/D3/T17] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 15:58:56,152 [P6228/D2/T17] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:13:56,828 [P6228/D3/T15] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: ed.davison@digitalpotion.co.uk, IP Address: ::1
+ 2017-07-22 16:18:44,989 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:18:44,990 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:18:44,992 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:18:44,997 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:18:44,998 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:18:44,998 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:18:45,015 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:18:45,016 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:18:45,017 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:18:45,017 [P6228/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:18:45,018 [P6228/D3/T6] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:18:45,019 [P6228/D3/T6] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:19:15,101 [P6228/D3/T14] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:20:56,976 [P6228/D4/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:20:56,993 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:20:57,005 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-07-22 16:20:57,069 [P6228/D4/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:20:57,070 [P6228/D4/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:20:57,074 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:57,395 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 321ms)
+ 2017-07-22 16:20:57,395 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:20:57,399 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2017-07-22 16:20:57,424 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:57,428 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 3ms)
+ 2017-07-22 16:20:57,428 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:20:57,431 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 3ms)
+ 2017-07-22 16:20:57,433 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:57,435 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2017-07-22 16:20:57,436 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:20:57,439 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 3ms)
+ 2017-07-22 16:20:57,466 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:57,467 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:20:57,467 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:20:57,469 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 2ms)
+ 2017-07-22 16:20:57,471 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:57,472 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:20:57,472 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:20:57,480 [P6228/D4/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 7ms)
+ 2017-07-22 16:20:58,473 [P6228/D4/T27] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:20:58,645 [P6228/D4/T27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:20:58,691 [P6228/D4/T27] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:20:58,809 [P6228/D4/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:20:58,836 [P6228/D4/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1916ms)
+ 2017-07-22 16:20:58,992 [P6228/D4/T37] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:20:59,159 [P6228/D4/T37] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:20:59,162 [P6228/D4/T37] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:20:59,510 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:20:59,511 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:20:59,511 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:20:59,514 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 3ms)
+ 2017-07-22 16:21:24,494 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:21:24,494 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:21:24,494 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-07-22 16:21:24,504 [P6228/D4/T37] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 9ms)
+ 2017-07-22 16:21:24,876 [P6228/D4/T37] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username ed.davison@digitalpotion.co.uk from IP address ::1
+ 2017-07-22 16:21:24,879 [P6228/D4/T37] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: ed.davison@digitalpotion.co.uk logged in from IP address ::1
+ 2017-07-22 16:21:25,042 [P6228/D4/T41] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:21:25,042 [P6228/D4/T41] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:21:25,042 [P6228/D4/T41] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-07-22 16:21:25,046 [P6228/D4/T41] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 3ms)
+ 2017-07-22 16:21:31,113 [P6228/D4/T20] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:21:31,113 [P6228/D4/T20] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:21:31,114 [P6228/D4/T20] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-07-22 16:21:31,116 [P6228/D4/T20] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 2ms)
+ 2017-07-22 16:21:59,245 [P6228/D4/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-07-21 16:21:59
+ 2017-07-22 16:33:51,748 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:33:51,748 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:33:51,752 [P6228/D4/T16] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:33:51,764 [P6228/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:33:51,767 [P6228/D4/T16] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:33:51,772 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:33:51,772 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:33:51,773 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:33:51,774 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:33:51,775 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:33:51,776 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:33:51,782 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:33:51,782 [P6228/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:33:51,782 [P6228/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:33:51,783 [P6228/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:33:51,783 [P6228/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:33:51,783 [P6228/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:34:15,836 [P6228/D5/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:34:15,851 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:34:15,862 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-07-22 16:34:15,917 [P6228/D5/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:34:15,920 [P6228/D5/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:34:15,922 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:34:16,060 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 137ms)
+ 2017-07-22 16:34:16,060 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:34:16,062 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2017-07-22 16:34:16,113 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:34:16,114 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:34:16,115 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:34:16,115 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-07-22 16:34:16,116 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:34:16,116 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:34:16,116 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:34:16,118 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-07-22 16:34:16,143 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:34:16,144 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:34:16,144 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:34:16,144 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-07-22 16:34:16,146 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:34:16,147 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:34:16,147 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:34:16,148 [P6228/D5/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-07-22 16:34:17,015 [P6228/D5/T27] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:34:17,192 [P6228/D5/T27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:34:17,285 [P6228/D5/T27] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:34:17,409 [P6228/D5/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:34:17,458 [P6228/D5/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1684ms)
+ 2017-07-22 16:34:18,056 [P6228/D5/T43] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:34:21,799 [P6228/D4/T38] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:35:44,276 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:35:44,281 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:35:44,283 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:35:44,285 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:35:44,287 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:35:44,287 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:35:44,287 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:35:44,288 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:35:44,288 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:35:44,288 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:35:44,288 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:35:44,288 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:35:44,315 [P6228/D5/T38] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:35:44,315 [P6228/D5/T38] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:35:44,316 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:35:44,316 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:35:44,316 [P6228/D5/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:35:55,770 [P6228/D6/T6] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:35:55,786 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:35:55,799 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-07-22 16:35:55,865 [P6228/D6/T6] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:35:55,867 [P6228/D6/T6] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:35:55,873 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:35:56,051 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 177ms)
+ 2017-07-22 16:35:56,051 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:35:56,053 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-07-22 16:35:56,128 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:35:56,129 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:35:56,129 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:35:56,130 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-07-22 16:35:56,130 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:35:56,131 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:35:56,131 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:35:56,132 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-07-22 16:35:56,162 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:35:56,162 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:35:56,162 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:35:56,163 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-07-22 16:35:56,163 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:35:56,164 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:35:56,164 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:35:56,166 [P6228/D6/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-07-22 16:35:57,185 [P6228/D6/T6] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:35:57,385 [P6228/D6/T6] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:35:57,482 [P6228/D6/T6] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:35:57,619 [P6228/D6/T6] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:35:57,652 [P6228/D6/T6] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1944ms)
+ 2017-07-22 16:35:58,146 [P6228/D6/T37] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:36:14,358 [P6228/D5/T47] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:38:31,739 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:38:31,740 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:38:31,746 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:38:31,773 [P6228/D6/T34] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:38:31,776 [P6228/D6/T34] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:38:31,782 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:38:31,783 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:38:31,783 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:38:31,783 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:38:31,784 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:38:31,784 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:38:31,789 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:38:31,790 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:38:31,791 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:38:31,797 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:38:31,798 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:38:31,799 [P6228/D6/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:38:37,778 [P6228/D7/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:38:37,795 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:38:37,814 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2017-07-22 16:38:37,863 [P6228/D7/T27] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:38:37,865 [P6228/D7/T27] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:38:37,867 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:38,158 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 290ms)
+ 2017-07-22 16:38:38,159 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:38:38,162 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2017-07-22 16:38:38,178 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:38,179 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:38:38,179 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:38:38,181 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2017-07-22 16:38:38,182 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:38,182 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:38:38,182 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:38:38,185 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-07-22 16:38:38,195 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:38,195 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:38:38,196 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:38:38,199 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 2ms)
+ 2017-07-22 16:38:38,200 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:38,200 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:38:38,201 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:38:38,202 [P6228/D7/T27] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-07-22 16:38:39,205 [P6228/D7/T27] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:38:39,466 [P6228/D7/T27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:38:39,540 [P6228/D7/T27] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:38:39,742 [P6228/D7/T27] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:38:39,791 [P6228/D7/T27] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2068ms)
+ 2017-07-22 16:38:40,035 [P6228/D7/T38] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:38:40,185 [P6228/D7/T38] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:38:40,186 [P6228/D7/T38] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:38:40,864 [P6228/D7/T38] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:38:40,864 [P6228/D7/T38] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:38:40,864 [P6228/D7/T38] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:38:40,865 [P6228/D7/T38] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2017-07-22 16:38:40,881 [P6228/D7/T38] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:38:40,915 [P6228/D7/T38] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:38:40,924 [P6228/D7/T44] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:38:40,931 [P6228/D7/T38] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:38:49,216 [P6228/D7/T26] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:38:49,217 [P6228/D7/T26] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:38:49,218 [P6228/D7/T44] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:38:49,233 [P6228/D7/T45] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:38:49,233 [P6228/D7/T26] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:39:01,864 [P6228/D6/T38] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\ed\AppData\Local\Temp\Temporary ASP.NET Files\vs\d61c32b0\fd670e2a\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:39:40,227 [P6228/D7/T40] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-07-21 16:39:40
+ 2017-07-22 16:39:41,131 [P6228/D7/T39] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:39:41,131 [P6228/D7/T39] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:39:41,131 [P6228/D7/T39] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-07-22 16:39:41,137 [P6228/D7/T39] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 5ms)
+ 2017-07-22 16:39:53,146 [P6228/D7/T40] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:39:53,147 [P6228/D7/T40] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:39:53,148 [P6228/D7/T15] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:39:53,158 [P6228/D7/T44] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:39:53,161 [P6228/D7/T40] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:40:04,768 [P6228/D7/T37] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:40:04,769 [P6228/D7/T37] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:40:04,772 [P6228/D7/T15] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:40:04,774 [P6228/D7/T37] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:40:04,775 [P6228/D7/T45] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:40:58,822 [P6228/D7/T29] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: ed.davison@digitalpotion.co.uk, IP Address: ::1
+ 2017-07-22 16:41:07,472 [P6228/D7/T47] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:41:07,472 [P6228/D7/T47] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:41:07,473 [P6228/D7/T15] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:41:07,479 [P6228/D7/T47] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:41:07,484 [P6228/D7/T35] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:41:18,072 [P6228/D7/T46] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetTypes(PublishedItemType itemType, IContentTypeBase[] contentTypes) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 162
+   at Umbraco.ModelsBuilder.Umbraco.Application.GetAllTypes() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\Application.cs:line 54
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 288
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels() in X:\Projects\Umbraco\ModelsBuilder\Zbu.ModelsBuilder\Umbraco.ModelsBuilder\Umbraco\PureLiveModelFactory.cs:line 221
+ 2017-07-22 16:41:18,072 [P6228/D7/T46] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2017-07-22 16:41:18,073 [P6228/D7/T42] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:41:18,076 [P6228/D7/T15] INFO  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Detected files changes.
+ 2017-07-22 16:41:18,080 [P6228/D7/T46] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.IOException: The process cannot access the file 'C:\Users\ed\Documents\Qsync\GitHub\Umb2\Umb2\App_Data\TEMP\PluginCache\umbraco-plugins.ED-SURFBOOK17.list' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Umbraco.Core.PluginManager.WriteCache()
+   at Umbraco.Core.PluginManager.ResolveTypesInternalLocked(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypesInternal(Type baseType, Type attributeType, Func`1 finder, Boolean cache)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cache, IEnumerable`1 specificAssemblies)
+   at Umbraco.Core.PluginManagerExtensions.ResolvePropertyEditors(PluginManager mgr)
+   at Umbraco.Core.CoreBootManager.<InitializeResolvers>b__c()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__b(Func`1 x)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.<Initialize>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.LazyManyObjectsResolverBase`2.get_InstanceTypes()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.CreateInstances()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.<InitializeAppInstances>b__6()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.ObjectResolution.ManyObjectsResolverBase`2.get_Values()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.<>c__DisplayClass8.<.ctor>b__6()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.get_PropertyEditors()
+   at Umbraco.Core.PropertyEditors.PropertyEditorResolver.GetByAlias(String alias)
+   at Umbraco.Core.PropertyEditors.ValueConverters.JsonValueConverter.IsConverter(PublishedPropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.<InitializeConverters>b__0(IPropertyValueConverter x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType.InitializeConverters()
+   at Umbraco.Core.Models.PublishedContent.PublishedPropertyType..ctor(PublishedContentType contentType, PropertyType propertyType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<.ctor>b__0(PropertyType x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType..ctor(IContentTypeComposition contentType)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.CreatePublishedContentType(PublishedItemType itemType, String alias)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.<>c__DisplayClass10.<Get>b__f()
+   at Umbraco.Core.Cache.CacheProviderExtensions.<>c__DisplayClass9`1.<GetCacheItem>b__8()
+   at Umbraco.Core.Cache.StaticCacheProvider.<>c__DisplayClass1a.<GetCacheItem>b__19(String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Umbraco.Core.Cache.StaticCacheProvider.GetCacheItem(String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.CacheProviderExtensions.GetCacheItem[T](ICacheProvider provider, String cacheKey, Func`1 getCacheItem)
+   at Umbraco.Core.Models.PublishedContent.PublishedContentType.Get(PublishedItemType itemType, String alias)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode(XmlNode xmlNode, Boolean legacy, Boolean isPreviewing, Int32& id, Guid& key, Int32& template, Int32& sortOrder, String& name, String& writerName, String& urlName, String& creatorName, Int32& creatorId, Int32& writerId, String& docTypeAlias, Int32& docTypeId, String& path, Guid& version, DateTime& createDate, DateTime& updateDate, Int32& level, Boolean& isDraft, PublishedContentType& contentType, Dictionary`2& properties, Func`3 getPublishedContentType)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.InitializeNode()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent.get_Path()
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.AddToCacheIfDeepestRoute(UmbracoContext umbracoContext, IPublishedContent content, String route)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedContentCache.GetByRoute(UmbracoContext umbracoContext, Boolean preview, String route, Nullable`1 hideTopLevelNode)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.FindContent(PublishedContentRequest docreq, String route)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrl.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__28(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-07-22 16:42:32,764 [P16644/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:42:32,816 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:42:32,829 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-07-22 16:42:32,937 [P16644/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:42:32,939 [P16644/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:42:32,949 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:33,412 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 464ms)
+ 2017-07-22 16:42:33,413 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:42:33,414 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2017-07-22 16:42:33,456 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:33,457 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-07-22 16:42:33,458 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:42:33,458 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-07-22 16:42:33,460 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:33,461 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:42:33,462 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:42:33,464 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-07-22 16:42:33,484 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:33,484 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:42:33,485 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:42:33,485 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-07-22 16:42:33,489 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:33,492 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 3ms)
+ 2017-07-22 16:42:33,493 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:42:33,497 [P16644/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-07-22 16:42:34,797 [P16644/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:42:35,005 [P16644/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:42:35,152 [P16644/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:42:35,263 [P16644/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:42:35,339 [P16644/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2707ms)
+ 2017-07-22 16:42:37,253 [P16644/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:42:52,440 [P16644/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:42:52,443 [P16644/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:42:53,062 [P16644/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:42:53,062 [P16644/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:42:53,062 [P16644/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:42:53,063 [P16644/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-07-22 16:42:54,649 [P16644/D2/T12] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 16:43:03,094 [P16644/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-07-22 16:43:07,498 [P16644/D2/T13] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 16:43:08,361 [P16644/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-07-22 16:44:40,209 [P14980/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:44:40,229 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:44:40,239 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-07-22 16:44:40,303 [P14980/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:44:40,306 [P14980/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:44:40,310 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:40,449 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 138ms)
+ 2017-07-22 16:44:40,449 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:44:40,450 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-07-22 16:44:40,488 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:40,489 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:44:40,489 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:44:40,490 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-07-22 16:44:40,491 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:40,492 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:44:40,493 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:44:40,495 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-07-22 16:44:40,539 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:40,540 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:44:40,540 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:44:40,540 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-07-22 16:44:40,544 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:40,545 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-07-22 16:44:40,546 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:44:40,548 [P14980/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-07-22 16:44:41,591 [P14980/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:44:41,938 [P14980/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:44:42,060 [P14980/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:44:42,175 [P14980/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:44:42,216 [P14980/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2084ms)
+ 2017-07-22 16:44:42,823 [P14980/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:44:48,207 [P14980/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:44:48,209 [P14980/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:44:48,716 [P14980/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:44:48,716 [P14980/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:44:48,716 [P14980/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:44:48,717 [P14980/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-07-22 16:44:49,087 [P14980/D2/T6] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 16:44:50,044 [P14980/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-07-22 16:45:48,252 [P14980/D2/T6] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-07-21 16:45:48
+ 2017-07-22 16:45:48,330 [P14980/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:45:48,331 [P14980/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:45:48,331 [P14980/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-07-22 16:45:48,332 [P14980/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-07-22 16:46:04,922 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:46:04,922 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:46:04,926 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:46:04,927 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:46:04,928 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:46:04,928 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:46:04,928 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:46:04,928 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:46:04,938 [P14980/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:46:04,939 [P14980/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:46:04,939 [P14980/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:46:04,939 [P14980/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:46:04,951 [P14980/D2/T6] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:46:04,958 [P14980/D2/T6] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:46:04,958 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:46:04,959 [P14980/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:46:04,966 [P14980/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:46:35,050 [P14980/D2/T7] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:52:48,580 [P14980/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:52:48,598 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:52:48,607 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2017-07-22 16:52:48,689 [P14980/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:52:48,691 [P14980/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:52:48,694 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:49,019 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 324ms)
+ 2017-07-22 16:52:49,019 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:52:49,023 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2017-07-22 16:52:49,037 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:49,038 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:52:49,038 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:52:49,040 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2017-07-22 16:52:49,042 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:49,042 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:52:49,043 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:52:49,046 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 3ms)
+ 2017-07-22 16:52:49,060 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:49,061 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:52:49,061 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:52:49,063 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2017-07-22 16:52:49,064 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:49,064 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:52:49,064 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:52:49,066 [P14980/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-07-22 16:52:50,029 [P14980/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:52:50,312 [P14980/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:52:50,365 [P14980/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:52:50,499 [P14980/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:52:50,557 [P14980/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2031ms)
+ 2017-07-22 16:52:50,749 [P14980/D3/T23] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:52:50,951 [P14980/D3/T23] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:52:50,953 [P14980/D3/T23] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:52:51,502 [P14980/D3/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:52:51,502 [P14980/D3/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:52:51,502 [P14980/D3/T23] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:52:51,508 [P14980/D3/T23] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 6ms)
+ 2017-07-22 16:52:53,905 [P14980/D3/T23] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 16:53:51,001 [P14980/D3/T23] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-07-21 16:53:50
+ 2017-07-22 16:53:51,088 [P14980/D3/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:53:51,088 [P14980/D3/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:53:51,088 [P14980/D3/T29] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-07-22 16:53:51,092 [P14980/D3/T29] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 3ms)
+ 2017-07-22 16:53:54,547 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-07-22 16:53:54,548 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-07-22 16:53:54,556 [P14980/D3/T28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-07-22 16:53:54,561 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-07-22 16:53:54,561 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-07-22 16:53:54,561 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-07-22 16:53:54,562 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-07-22 16:53:54,563 [P14980/D3/T5] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-07-22 16:53:54,564 [P14980/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-07-22 16:53:54,564 [P14980/D3/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-07-22 16:53:54,577 [P14980/D3/T5] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-07-22 16:53:54,581 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-07-22 16:53:54,581 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-07-22 16:53:54,586 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-07-22 16:53:54,586 [P14980/D3/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-07-22 16:53:54,587 [P14980/D3/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-07-22 16:53:54,587 [P14980/D3/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-07-22 16:54:05,172 [P14980/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.4 application starting on ED-SURFBOOK17
+ 2017-07-22 16:54:05,189 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-07-22 16:54:05,205 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-07-22 16:54:05,274 [P14980/D4/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-07-22 16:54:05,276 [P14980/D4/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-07-22 16:54:05,284 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:05,644 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 359ms)
+ 2017-07-22 16:54:05,644 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-07-22 16:54:05,647 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2017-07-22 16:54:05,668 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:05,669 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:54:05,669 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-07-22 16:54:05,675 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-07-22 16:54:05,676 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:05,677 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-07-22 16:54:05,678 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-07-22 16:54:05,684 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-07-22 16:54:05,715 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:05,715 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:54:05,716 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-07-22 16:54:05,721 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 5ms)
+ 2017-07-22 16:54:05,722 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:05,724 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-07-22 16:54:05,724 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-07-22 16:54:05,733 [P14980/D4/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 9ms)
+ 2017-07-22 16:54:06,907 [P14980/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-07-22 16:54:07,085 [P14980/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-07-22 16:54:07,123 [P14980/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-07-22 16:54:07,218 [P14980/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-07-22 16:54:07,245 [P14980/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2129ms)
+ 2017-07-22 16:54:07,386 [P14980/D4/T29] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54351/umbraco (UmbracoModule request)
+ 2017-07-22 16:54:07,519 [P14980/D4/T29] INFO  umbraco.content - Load Xml from file...
+ 2017-07-22 16:54:07,520 [P14980/D4/T29] INFO  umbraco.content - Loaded Xml from file.
+ 2017-07-22 16:54:07,920 [P14980/D4/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:54:07,920 [P14980/D4/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:54:07,920 [P14980/D4/T29] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-07-22 16:54:07,924 [P14980/D4/T29] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 4ms)
+ 2017-07-22 16:54:08,980 [P14980/D4/T29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 16:54:19,069 [P14980/D4/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-07-22 16:54:24,676 [P14980/D3/T18] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\ed\AppData\Local\Temp\Temporary ASP.NET Files\vs\d61c32b0\fd670e2a\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-07-22 16:55:07,572 [P14980/D4/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-07-21 16:55:07
+ 2017-07-22 16:55:07,652 [P14980/D4/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-07-22 16:55:07,652 [P14980/D4/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-07-22 16:55:07,653 [P14980/D4/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-07-22 16:55:07,659 [P14980/D4/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2017-07-22 17:06:35,874 [P14980/D4/T42] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-07-22 17:06:52,447 [P14980/D4/T43] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Umb2.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.

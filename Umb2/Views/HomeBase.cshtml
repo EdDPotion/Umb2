@@ -3,5 +3,22 @@
 	Layout = "SiteBase.cshtml";
 }
 
+<!-- featured -->
+@{ Html.RenderAction("RenderFeatured", "Home");}
+
+<!-- big list -->
+@{ Html.RenderAction("RenderBigList", "Home");}
+
+
+<!-- post list -->
+@{ Html.RenderAction("RenderPostList", "Home");}
+
+
+<!-- testimonial list -->
+@{ Html.RenderAction("RenderTestimonialList", "Home");}
+
+
+
+
 @* the fun starts here *@
 

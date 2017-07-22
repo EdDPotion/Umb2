@@ -19,5 +19,10 @@ namespace Umb2.Controllers
         {
             return PartialView("~/Views/Partials/SiteLayout/_Footer.cshtml");
         }
+
+        public ActionResult RenderIntro()
+        {
+            return PartialView("~/Views/Partials/SiteLayout/_Intro.cshtml");
+        }
     }
 }

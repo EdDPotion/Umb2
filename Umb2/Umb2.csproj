@@ -434,6 +434,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Partials\SiteLayout\_Footer.cshtml" />
+    <Content Include="Views\Partials\SiteLayout\_Intro.cshtml" />
+    <Content Include="Views\Partials\Home\_Featured.cshtml" />
+    <Content Include="Views\Partials\Home\_BigList.cshtml" />
+    <Content Include="Views\Partials\Home\_PostList.cshtml" />
+    <Content Include="Views\Partials\Home\_TestimonialList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -469,6 +474,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SiteLayoutController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
