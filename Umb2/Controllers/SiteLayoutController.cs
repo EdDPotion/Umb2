@@ -6,6 +6,7 @@ using Umbraco.Web.Mvc;
 using System.Web.Mvc;
 using Umb2.Models;
 using Umbraco.Core.Models;
+using Umbraco.Web;
 
 
 
@@ -38,9 +39,7 @@ namespace Umb2.Controllers
         /// <returns>A List of NavigationListItems, representing the structure of the site.</returns>
         private List<NavigationListItem> GetNavigationModelFromDatabase()
         {
-            const int HOME_PAGE_POSITION_IN_PATH = 1;
-            int homePageId = int.Parse(CurrentPage.Path.Split(',')[HOME_PAGE_POSITION_IN_PATH]);
-            IPublishedContent homePage = Umbraco.Content(homePageId);
+            IPublishedContent homePage = CurrentPage.AncestorOrSelf(1).DescendantsOrSelf().Where(x => x.DocumentTypeAlias == "home").FirstOrDefault();
             List<NavigationListItem> nav = new List<NavigationListItem>();
             nav.Add(new NavigationListItem(new NavigationLink(homePage.Url, homePage.Name)));
             nav.AddRange(GetChildNavigationList(homePage));
@@ -52,7 +51,7 @@ namespace Umb2.Controllers
         /// </summary>
         /// <param name="page">The parent page which you want the child structure for</param>
         /// <returns>A List of NavigationListItems, representing the structure of the pages below a page.</returns>
-        private List<NavigationListItem> GetChildNavigationList(dynamic page)
+        private List<NavigationListItem> GetChildNavigationList(IPublishedContent page)
         {
             List<NavigationListItem> listItems = null;
             var childPages = page.Children.Where("Visible");
