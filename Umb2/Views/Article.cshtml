@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "SiteBase.cshtml";
+}
+
+<!-- intro -->
+@{ Html.RenderAction("RenderIntro", "Home");}
+
+<div id="fh5co-about-section">
+    <div class="container">
+        <div class="row">
+            <!-- body text grid widget -->
+            @CurrentPage.GetGridHtml("bodyText", "bootstrap3")
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- testimonial list -->
+@{ Html.RenderAction("RenderTestimonialList", "Home");}
+
+
+
+@* no comment *@
+

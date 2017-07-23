@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "5aac58d909d6abb3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "7df3feb23967bb33")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -46,6 +46,9 @@ namespace Umbraco.Web.PublishedContentModels
 	{
 		/// <summary>Description</summary>
 		string Description { get; }
+
+		/// <summary>HideInNav</summary>
+		bool HideInNav { get; }
 
 		/// <summary>ShareImage</summary>
 		IPublishedContent ShareImage { get; }
@@ -92,6 +95,18 @@ namespace Umbraco.Web.PublishedContentModels
 		public static string GetDescription(IDocBase that) { return that.GetPropertyValue<string>("description"); }
 
 		///<summary>
+		/// HideInNav: hides the page in the primary nav
+		///</summary>
+		[ImplementPropertyType("hideInNav")]
+		public bool HideInNav
+		{
+			get { return GetHideInNav(this); }
+		}
+
+		/// <summary>Static getter for HideInNav</summary>
+		public static bool GetHideInNav(IDocBase that) { return that.GetPropertyValue<bool>("hideInNav"); }
+
+		///<summary>
 		/// ShareImage
 		///</summary>
 		[ImplementPropertyType("shareImage")]
@@ -120,8 +135,8 @@ namespace Umbraco.Web.PublishedContentModels
 	/// <summary>docContent</summary>
 	public partial interface IDocContent : IPublishedContent
 	{
-		/// <summary>Doc Title</summary>
-		string DocTitle { get; }
+		/// <summary>BodyText</summary>
+		Newtonsoft.Json.Linq.JToken BodyText { get; }
 	}
 
 	/// <summary>docContent</summary>
@@ -150,16 +165,16 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Doc Title
+		/// BodyText: Content Grid and Body Text
 		///</summary>
-		[ImplementPropertyType("docTitle")]
-		public string DocTitle
+		[ImplementPropertyType("bodyText")]
+		public Newtonsoft.Json.Linq.JToken BodyText
 		{
-			get { return GetDocTitle(this); }
+			get { return GetBodyText(this); }
 		}
 
-		/// <summary>Static getter for Doc Title</summary>
-		public static string GetDocTitle(IDocContent that) { return that.GetPropertyValue<string>("docTitle"); }
+		/// <summary>Static getter for BodyText</summary>
+		public static Newtonsoft.Json.Linq.JToken GetBodyText(IDocContent that) { return that.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("bodyText"); }
 	}
 
 	/// <summary>Home</summary>
@@ -197,6 +212,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// HideInNav: hides the page in the primary nav
+		///</summary>
+		[ImplementPropertyType("hideInNav")]
+		public bool HideInNav
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetHideInNav(this); }
+		}
+
+		///<summary>
 		/// ShareImage
 		///</summary>
 		[ImplementPropertyType("shareImage")]
@@ -215,12 +239,12 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Doc Title
+		/// BodyText: Content Grid and Body Text
 		///</summary>
-		[ImplementPropertyType("docTitle")]
-		public string DocTitle
+		[ImplementPropertyType("bodyText")]
+		public Newtonsoft.Json.Linq.JToken BodyText
 		{
-			get { return Umbraco.Web.PublishedContentModels.DocContent.GetDocTitle(this); }
+			get { return Umbraco.Web.PublishedContentModels.DocContent.GetBodyText(this); }
 		}
 	}
 
@@ -259,6 +283,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// HideInNav: hides the page in the primary nav
+		///</summary>
+		[ImplementPropertyType("hideInNav")]
+		public bool HideInNav
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetHideInNav(this); }
+		}
+
+		///<summary>
 		/// ShareImage
 		///</summary>
 		[ImplementPropertyType("shareImage")]
@@ -277,12 +310,83 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Doc Title
+		/// BodyText: Content Grid and Body Text
 		///</summary>
-		[ImplementPropertyType("docTitle")]
-		public string DocTitle
+		[ImplementPropertyType("bodyText")]
+		public Newtonsoft.Json.Linq.JToken BodyText
 		{
-			get { return Umbraco.Web.PublishedContentModels.DocContent.GetDocTitle(this); }
+			get { return Umbraco.Web.PublishedContentModels.DocContent.GetBodyText(this); }
+		}
+	}
+
+	/// <summary>Article</summary>
+	[PublishedContentModel("article")]
+	public partial class Article : PublishedContentModel, IDocBase, IDocContent
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "article";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Article(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Article, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Description
+		///</summary>
+		[ImplementPropertyType("description")]
+		public string Description
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetDescription(this); }
+		}
+
+		///<summary>
+		/// HideInNav: hides the page in the primary nav
+		///</summary>
+		[ImplementPropertyType("hideInNav")]
+		public bool HideInNav
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetHideInNav(this); }
+		}
+
+		///<summary>
+		/// ShareImage
+		///</summary>
+		[ImplementPropertyType("shareImage")]
+		public IPublishedContent ShareImage
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetShareImage(this); }
+		}
+
+		///<summary>
+		/// Title
+		///</summary>
+		[ImplementPropertyType("title")]
+		public string Title
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocBase.GetTitle(this); }
+		}
+
+		///<summary>
+		/// BodyText: Content Grid and Body Text
+		///</summary>
+		[ImplementPropertyType("bodyText")]
+		public Newtonsoft.Json.Linq.JToken BodyText
+		{
+			get { return Umbraco.Web.PublishedContentModels.DocContent.GetBodyText(this); }
 		}
 	}
 

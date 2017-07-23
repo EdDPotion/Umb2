@@ -351,6 +351,33 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: none;
   outline: none;
 }
+#fh5co-header h2 {
+    float: left;
+    padding: 0;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: "Roboto", Arial, sans-serif;
+    
+}
+
+    #fh5co-header h2 i {
+        color: #1FB57B;
+    }
+
+    #fh5co-header h2 a {
+        color: black;
+    }
+
+        #fh5co-header h2 a > span {
+            color: #1FB57B;
+        }
+
+        #fh5co-header h2 a:hover, #fh5co-header h2 a:active, #fh5co-header h2 a:focus {
+            text-decoration: none;
+            outline: none;
+        }
 #fh5co-header nav {
   float: right;
   padding: 0;
